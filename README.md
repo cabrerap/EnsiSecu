@@ -21,4 +21,4 @@ cd EnsiSecu
 ./exploit.sh
 ```
 
-Attendez le lancement du serveur par Metasploit, actualisez la page Firefox puis cliquez dessus (autorisez l'utilisation de pop-ups si nécessaire). Le script obtient alors l'accès à la console de Firefox avec des droits privilégiés.
+Attendez le lancement du serveur par Metasploit, actualisez la page Firefox puis cliquez dessus (autorisez l'utilisation de pop-ups si nécessaire). Le script obtient alors l'accès à la console de Firefox avec des droits privilégiés (log observable dans la console métasploit).
