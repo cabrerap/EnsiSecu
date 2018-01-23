@@ -21,4 +21,4 @@ cd EnsiSecu
 ./exploit.sh
 ```
 
-### 4) Attendez le lancement du serveur par Metasploit puis actualisez la page Firefox. Autorisez l'utilisation de pop-ups, le script récupère alors l'accès à votre machine virtuelle.
+Attendez le lancement du serveur par Metasploit, actualisez la page Firefox puis cliquez dessus (autorisez l'utilisation de pop-ups si nécessaire). Le script obtient alors l'accès à la console de Firefox avec des droits privilégiés.
