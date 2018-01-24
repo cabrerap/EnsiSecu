@@ -20,5 +20,6 @@ cd EnsiSecu
 ```
 ./exploit.sh
 ```
-
-Attendez le lancement du serveur par Metasploit, actualisez la page Firefox puis cliquez dessus (autorisez l'utilisation de pop-ups si nécessaire). Le script obtient alors l'accès à la console de Firefox avec des droits privilégiés (log observable dans la console métasploit).
+Ce script télécharge une version 34.05 de Firefox. Pour éviter les conflits, il est nécessaire de fermer toute page Firefox existante.
+Attendez le lancement du serveur par Metasploit, ouvrez une page Firefox 34.05 et dirigez-vous vers l'adresse indiquée dans la console (172.170.0.2:8080/exploit). il est nécessaire d'autoriser les pop-ups.
+Le script obtient alors l'accès à la console de Firefox avec des droits privilégiés (log observable dans la console métasploit).
